@@ -1,0 +1,19 @@
+.menu {
+    border-bottom: 5px solid #1FA67A;
+}
+
+.logo__tagline {
+    color: #1FA67A;
+}
+
+.widget__title {
+	border-bottom: 3px solid #1FA67A;
+}
+
+.tags__badge {
+    background: #1FA67A;
+}
+
+.content a, .warning a {
+    color: #1FA67A;
+}
