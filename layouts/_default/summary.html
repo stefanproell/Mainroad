@@ -20,12 +20,12 @@
 		{{- end }}
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		{{ .Summary }}
+		{{ .Content }}
 	</div>
 	{{- if .Site.Params.readmore }}
 	{{- if .Truncated }}
 	<div class="list__footer clearfix">
-		<a class="list__footer-readmore btn" href="{{ .RelPermalink }}">{{ T "read_more" }}</a>
+		<a class="list__footer-readmore btn" href="{{ .RelPermalink }}">{{ T "Read article on one page" }}</a>
 	</div>
 	{{- end }}
 	{{- end }}
